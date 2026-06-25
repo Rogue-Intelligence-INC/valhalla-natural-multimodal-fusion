@@ -1,0 +1,33 @@
+{
+  "manifest_version": "valhalla-bake-1.0",
+  "product": "valhalla-free-multimodal-bake",
+  "free_multimodal": {
+    "protocol": "valhalla-free-multimodal-fusion-v1",
+    "phase": "test",
+    "sample_count": 107,
+    "emergence_rate": 0.6448598130841121,
+    "avg_natural_multimodal_score": 0.8227720609662104,
+    "avg_adaptation_rounds": 5.0,
+    "potential_confirmed": true,
+    "verdict": "POTENTIAL_CONFIRMED: TTS+LLM multi-round free fusion shows emergent cross-modal structure"
+  },
+  "bake": {
+    "base_model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "bake_mode": "full",
+    "strength": 0.08,
+    "weight_delta_norm": 196.0,
+    "baked_at": "2026-06-25T01:12:39.907024+00:00"
+  },
+  "incubation": {
+    "body": "triad",
+    "ingress": "normalizedf64",
+    "cycles": 1,
+    "corpus_lines": 49,
+    "tile_count": 177,
+    "stem_cell_count": 277,
+    "signals_emitted": 1600,
+    "patch_fingerprint": "recovered_from_export"
+  },
+  "runtime_patch": false,
+  "checkpoint_path": "checkpoints/valhalla_free_multimodal/test_fused_s0.08 (local, ~988MB, not in git)"
+}

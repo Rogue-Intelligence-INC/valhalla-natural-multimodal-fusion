@@ -1,0 +1,8 @@
+# Large files not in git
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Full trace dumps (use artifacts/potential_test_summary.json)
+potential_test_full.json

@@ -1,0 +1,6 @@
+Proprietary — Rogue Intelligence LNC.
+
+This repository contains confidential experiment artifacts for Valhalla
+natural multimodal fusion (TTS + LLM free fusion). Not for public distribution.
+
+Implementation source lives in the private Valhalla monorepo (hub-f64).
